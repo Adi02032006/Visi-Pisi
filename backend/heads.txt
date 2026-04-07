@@ -1,0 +1,77 @@
+emotion_head.classifier.0.bias: [256]
+emotion_head.classifier.0.weight: [256, 1536]
+emotion_head.classifier.3.bias: [4]
+emotion_head.classifier.3.weight: [4, 256]
+intent_head.action_classifier.bias: [6]
+intent_head.action_classifier.weight: [6, 512]
+intent_head.object_classifier.bias: [14]
+intent_head.object_classifier.weight: [14, 512]
+intent_head.shared.0.bias: [512]
+intent_head.shared.0.weight: [512, 1536]
+
+num_actions=6
+num_objects=14
+num_emotions=4
+
+label_maps={
+  "action_to_idx": {
+    "activate": 0,
+    "bring": 1,
+    "change language": 2,
+    "deactivate": 3,
+    "decrease": 4,
+    "increase": 5
+  },
+  "object_to_idx": {
+    "Chinese": 0,
+    "English": 1,
+    "German": 2,
+    "Korean": 3,
+    "heat": 4,
+    "juice": 5,
+    "lamp": 6,
+    "lights": 7,
+    "music": 8,
+    "newspaper": 9,
+    "none": 10,
+    "shoes": 11,
+    "socks": 12,
+    "volume": 13
+  },
+  "emotion_to_idx": {
+    "angry": 0,
+    "happy": 1,
+    "neutral": 2,
+    "sad": 3
+  },
+  "idx_to_action": {
+    "0": "activate",
+    "1": "bring",
+    "2": "change language",
+    "3": "deactivate",
+    "4": "decrease",
+    "5": "increase"
+  },
+  "idx_to_object": {
+    "0": "Chinese",
+    "1": "English",
+    "2": "German",
+    "3": "Korean",
+    "4": "heat",
+    "5": "juice",
+    "6": "lamp",
+    "7": "lights",
+    "8": "music",
+    "9": "newspaper",
+    "10": "none",
+    "11": "shoes",
+    "12": "socks",
+    "13": "volume"
+  },
+  "idx_to_emotion": {
+    "0": "angry",
+    "1": "happy",
+    "2": "neutral",
+    "3": "sad"
+  }
+}

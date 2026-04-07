@@ -1,0 +1,72 @@
+{
+  "heads": [
+    {
+      "key": "emotion_head.classifier.0.bias",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "key": "emotion_head.classifier.0.weight",
+      "shape": [
+        256,
+        1536
+      ]
+    },
+    {
+      "key": "emotion_head.classifier.3.bias",
+      "shape": [
+        4
+      ]
+    },
+    {
+      "key": "emotion_head.classifier.3.weight",
+      "shape": [
+        4,
+        256
+      ]
+    },
+    {
+      "key": "intent_head.action_classifier.bias",
+      "shape": [
+        6
+      ]
+    },
+    {
+      "key": "intent_head.action_classifier.weight",
+      "shape": [
+        6,
+        512
+      ]
+    },
+    {
+      "key": "intent_head.object_classifier.bias",
+      "shape": [
+        14
+      ]
+    },
+    {
+      "key": "intent_head.object_classifier.weight",
+      "shape": [
+        14,
+        512
+      ]
+    },
+    {
+      "key": "intent_head.shared.0.bias",
+      "shape": [
+        512
+      ]
+    },
+    {
+      "key": "intent_head.shared.0.weight",
+      "shape": [
+        512,
+        1536
+      ]
+    }
+  ],
+  "num_actions": 6,
+  "num_objects": 14,
+  "num_emotions": 4
+}
